@@ -1,0 +1,521 @@
+
+html {
+height: auto;
+min-height: 100%;
+  }
+
+  Body {
+      max-width: 100%;
+      background: linear-gradient(rgb(178, 171, 218), rgb(239, 238, 243));
+  }
+
+  .contenedor-principal{
+      width: 99%;
+      margin-inline: auto;
+      margin-top: 1%;
+      margin-bottom: 1%;
+  }
+  .contenedor{
+      max-width: 100%;
+      height: 30vw;
+      margin-left: 0%;
+      margin-right: 0%;
+      position: relative;
+      background-image: url("../imagenes/titulo.png");
+      background-position: center;
+      background-size: cover;
+  }
+  .logo {
+      display: inline;
+      width: 100%;
+      height: 15vw;
+      margin-left: 1%;
+      margin-top: 1%;
+      position: absolute;
+      background-image: url("../imagenes/Logo.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+
+  .titulo {
+      display: inline;
+      position: absolute;
+      width: 57%;
+      margin-left: 22%;
+      margin-top: 5%;
+  }
+
+  .titulo h1 {
+      font-size: 2vw;
+      font-family: Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  .Vienos {
+      display: block;
+      position: absolute;
+      margin-left: 82%;
+      margin-top: 5%;
+  }
+
+  .Vienos h4 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1vw;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.5)
+  }
+
+  .autores {
+      display: block;
+      position: absolute;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 20%;
+      max-width: 100%;
+  }
+
+  .autores h3 {
+      font-family: Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1vw;
+      text-align: center;
+      color: white;
+  }
+  .LineaNaranja {
+      max-width: 100%;
+      height: 4.5vw;
+      background: linear-gradient(rgb(218, 65, 36), rgb(243, 146, 56));
+      margin-top: 0.2%;
+      margin-left: 0%;
+  }
+
+  .Resumen {
+      position: absolute;
+      max-width: 100%;
+      width: 15vw;
+      height: 4.5vw;
+      position: absolute;
+      background: radial-gradient(rgb(1, 1, 24),rgb(1,1,150));
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  }
+
+  .fases {
+      font-family: 'arial Narrow';
+      font-size: 1.5vw;
+      color: white;
+      text-align: center;
+  }
+
+  .Metodologia {
+      position: absolute;
+      max-width: 100%;
+      width: 15vw;
+      height: 4.5vw;
+      margin-left: 31%;
+      position: absolute;
+      background: radial-gradient(rgb(1, 1, 24),rgb(1,1,150));
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  }
+
+  .Contenedor1 {
+      position: static;
+      background-color: white;
+      display: flex;
+      max-width: 100%;
+      margin-inline: auto;
+      margin-top: 0.1%;
+  }
+
+  .Caja_Resumen_texto {
+      position: static;
+      display: inline-block;
+      border: 1px solid rgb(53, 96, 138);
+      width: 32vw;
+      height: 25vw;
+  }
+
+  .Caja_Metodologia_texto {
+      display: flex;
+      border-top: 1px solid rgb(53, 96, 138);
+      border-right: 1px solid rgb(53, 96, 138);
+      border-bottom: 1px solid rgb(53, 96, 138);
+      width: 70%;
+      align-items: center;
+  }
+
+  .Caja_Metodologia_texto img {
+      width: 100%;
+  }
+
+  .caja-espacio-resumen {
+    height: 23vw;
+      margin-right: 1vw;
+      margin-left: 1vw;
+      margin-top: 1vw;
+      margin-bottom: 0vw;
+  }
+
+  .Resumen_texto {
+      font-family: Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1vw;
+      color: black;
+      text-align: justify;
+  }
+  #PalabrasClaveResumen{
+      font-family: Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1vw;
+      color: black;
+      text-align: justify;
+  }
+  .Contenedor2{
+      position: static;
+      display: flex;
+      max-width: 100%;
+      margin-inline: auto;
+      margin-top: 0.2%;
+      border: 1px solid rgb(53, 96, 138);
+  }
+
+  .Caja-Resultado12 {
+      display: inline-block;
+      background-color: white;
+      margin-left: 0.1%;
+      width: 60%;
+  }
+      .resultados12-bloque1{
+          /* border-right: 3px solid rgb(53, 96, 138); */
+          border-bottom: 1px solid rgb(53, 96, 138);
+          width: 99.5%;
+          height: auto;
+      }
+      .contenedor-resultado1-titulo{
+          display: flex;
+          width: 100%;
+      }
+      .redondo{
+          background-color: rgb(1, 1, 24);
+          width: 5vw;
+          height:5vw;
+          border-radius: 50%;
+          margin-top: 1%;
+          margin-left: 1%;
+          margin-bottom: 1%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          }
+      .redondo h2{
+          color: white;
+          text-align: center;
+          justify-content: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 2vw;
+          
+      }
+      .titulo1{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 80%;
+      }
+
+      .titulo1 h2{
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 1.5vw;
+          text-align: center;
+      }
+
+      .contenedor-resultado1{
+          display: flex;
+          margin-top: 0%;
+      }
+      .contenedor-resultado-imagen{
+          display: block;
+          align-items: center;
+          width: 30vw;
+          padding: 1%;
+      }
+      .contenedor-resultado-imagen img{
+          width: 100%;
+      }
+      .contenedor-resultado-descripcion{
+          display: block;
+          width: 10vw;
+      }
+      .figura1-descipcion{
+          width: auto;
+          padding-top: none;
+      }
+      .figura1-descipcion p{
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 0.8vw;
+          text-align: justify;
+      }
+      .tabla-descripcion{
+          display: block;
+          align-items: center;
+      }
+      .tabla-descripcion img{
+          width: 100%;
+          justify-items: center;
+      }
+      .resultados12-bloque2{
+          display: block;
+          /* border-right: 3px solid rgb(53, 96, 138); */
+          border-top: none;
+          width: 99.5%;
+      }
+          .contenedor-eof{
+              display: block;
+          }
+              .analsis-eof-titulo{
+                  width: 100%;
+              }
+                  .redondo-titulo2{
+                      display: flex;
+                      width: 100%;
+                  }
+                  .redondo2{
+                    background-color: rgb(1, 1, 24);
+                    width: 5.5vw;
+                    height:5.5vw;
+                    border-radius: 50%;
+                    margin-top: 1%;
+                    margin-left: 1%;
+                    margin-bottom: 1%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                      }
+                  .redondo2 h2{
+                      color: white; 
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                      font-size: 2vw;
+                      text-align: center;
+                  }
+                  .titulo2{
+                      width: 100%;
+                      margin-block: auto;
+                      margin-inline: auto;
+                  }
+                  .titulo2 h2{
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 1.5vw;
+                    text-align: center;
+                  }
+                  .contenedor-efo-figura5{
+                      display: flex;
+                      margin-top: -5%;
+                  }
+                  .figura5{
+                      display: flex;
+                      padding: 2%;
+                      width: 25%;
+                      margin-block: auto;
+                  }
+                  .figura5 p{
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                      font-size: 1vw;
+                      text-align: justify;
+                  }
+              .analsis-eof-grafica{
+                  width: 100%;
+              }
+                  .analsis-eof-grafica img{
+                      width: 96%;
+                      padding: 2%;
+                      margin-top: 7%;
+                  }
+
+          .contenedor-wavelet{
+              display: flex;
+              justify-content: center;
+              text-align: center;
+          }
+              .contenedor-wavelet-imagen{
+                  width: 70%;
+                  display: flex;
+                  justify-content: center;
+                  text-align: center;
+                  padding: 2%;
+              }
+              .contenedor-wavelet-imagen img{
+                  width: 100%;
+                  padding: 2%;
+              }
+              .contenedor-wavelet-descripcion{
+                  width: 30%;
+                  margin: 2%;
+        
+              }
+              .contenedor-wavelet-descripcion p{
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  font-size: 1vw;
+                  text-align: justify;
+              }
+
+  .Caja-Resultado3 {
+      display: inline-block;
+      background-color: white;
+      border-left: 1px solid rgb(53, 96, 138);
+      margin-left: 0.1%;
+      width: 60%;
+  }
+      .contenedor-titulo3-redondo{
+          display: flex;
+      }
+          .redondo3{
+            background-color: rgb(1, 1, 24);
+            width: 5vw;
+            height:5vw;
+            border-radius: 50%;
+            margin-top: 1%;
+            margin-left: 1%;
+            margin-bottom: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .redondo3 h2{
+            color: white; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 2vw;
+            text-align: center;
+          }
+          .titulo3{
+              margin-inline: auto;
+              padding-left: 3%;
+              padding-right: 3%;
+              margin-block: auto;
+          }
+          .titulo3 h2{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.5vw;
+              text-align: center;
+              margin-top: 6%;
+          }
+          .contenedor-imagen3{
+              width: 100%;
+          }
+              .contenedor-imagen3 img{
+                  width: 100%;
+              }
+          .contenedor-imagen3-descripcion{
+              width: 90%;
+              margin-top: -2%;
+              padding: 5%;
+          }
+              .contenedor-imagen3-descripcion p{
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  font-size: 1vw;
+                  text-align: justify;
+                  padding-top: none;
+              }
+          .contenedor-rosas{
+              display: flex;
+              margin-top: -1%;
+          }
+              .contenedor-hs{
+                  width: 50%;
+              }
+                  .contenedor-hs-contenido{
+                      padding: 5%;
+                  }
+                      .contenedor-hs-contenido p{
+                          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                          font-size: 1vw;
+                          text-align: center;
+                          margin-top: 6%;
+                      }
+                  .contenedor-hs-imagen{
+                      width: 100%;
+                  }
+                      .contenedor-hs-imagen img{
+                          width: 100%;
+                      }
+              .contenedor-tp{
+                  width: 50%;
+              }
+                  .contenedor-tp-contenido{
+                      padding: 7%;
+                  }
+                      .contenedor-tp-contenido p{
+                          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                          font-size: 1vw;
+                          text-align: center;
+                          margin-top: 6%;
+                      }
+                  .contenedor-tp-imagen{
+                      width: 100%;
+                  }
+                      .contenedor-tp-imagen img{
+                          width: 100%;
+                      }
+  .conclusiones{
+      max-width: 100%;
+      width: 15vw;
+      height: 4.5vw;
+      position: absolute;
+      background: radial-gradient(rgb(1, 1, 24),rgb(1,1,150));
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  }
+  .contenedor-conclusiones{
+      position: static;
+      background-color: white;
+      display: flex;
+      max-width: 100%;
+      margin-inline: auto;
+      margin-top: 0.2%;
+      border: 1px solid rgb(53, 96, 138);
+      
+  }
+  .contenedor-conclusiones-texto{
+      width: 75%;
+  }
+  .contenedor-conclusiones-texto p{
+      font-family: Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1vw;
+      text-align: justify;
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+  .contenedor-conclusiones-logos{
+      display: flex;
+      width: 25%;
+  }
+  .contenedor-conclusiones-logos-cccp{
+      width: 100%;
+      margin-block: auto;
+  }
+  .contenedor-conclusiones-logos-cccp img{
+      width: 7vw;
+  }
+  .contenedor-conclusiones-logos-imedea{
+      width: 100%;
+      margin-block: auto;
+  }
+  .contenedor-conclusiones-logos-imedea img{
+      width: 7vw;
+  }
+  .contenedor-final{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(rgb(1, 1, 24),rgb(1,1,150));
+      width: 100%;
+      height: 5vw;
+  }
+  .contenedor-final h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+  }
